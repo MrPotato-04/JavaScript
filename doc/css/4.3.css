@@ -1,0 +1,27 @@
+#slideholder {
+    background-size: cover;
+    height: 300px;
+    width: 300px;
+    float: top;
+    border: 3px black solid;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#slideholder2 {
+    background-size: cover;
+    height: 300px;
+    width: 300px;
+    float: top;
+    border: 3px black solid;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#slideholder3 {
+    background-size: cover;
+    height: 300px;
+    width: 300px;
+    float: top;
+    border: 3px black solid;
+    background-repeat: no-repeat;
+    background-position: center;
+}
