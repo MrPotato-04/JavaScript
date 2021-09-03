@@ -1,13 +1,12 @@
-<?php
-echo "Here are our files";
-$path = ".";
-$dh = opendir($path);
-$i=1;
-while (($file = readdir($dh)) !== false) {
-    if($file != "." && $file != ".." && $file != "index.php" && $file != ".htaccess" && $file != "error_log" && $file != "cgi-bin") {
-        echo "<a href='$doc/$file'>$file</a><br /><br />";
-        $i++;
-    }
-}
-closedir($dh);
-?> 
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Página de prueba<title>
+</head>
+<body>
+  <h1>Hola amiguitos!</h1>
+  <footer>gpuma 2017</footer>
+</body>
+</html>
+
